@@ -9,6 +9,7 @@ binding = "ASSETS"
 [[d1_databases]]
 binding = "DB"
 database_name = "outlook-email-db"
+migrations_dir = "migrations"
 
 # Scheduled token refresh. This is just the BASE wake-up rate (every 6h);
 # the actual interval / batch / on-off is controlled in 系统设置 at runtime.
